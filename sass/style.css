@@ -1,0 +1,141 @@
+.col, .cent, .con, .con div, .centaring {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.jcs {
+  justify-content: flex-start;
+}
+
+.jce {
+  justify-content: flex-end;
+}
+
+.jc-bet {
+  justify-content: space-between;
+}
+
+.jc-eve {
+  justify-content: space-evenly;
+}
+
+.as {
+  align-items: flex-start;
+}
+
+.ae {
+  align-items: flex-end;
+}
+
+.ass {
+  align-self: flex-start;
+}
+
+.ase {
+  align-self: flex-end;
+}
+
+.gri-c26 {
+  grid-template-columns: 26;
+}
+
+.gri-c5 {
+  grid-template-rows: 5;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/static/Inter-Bold.ttf);
+}
+body {
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  background: hsl(0, 0%, 8%);
+}
+
+.cent {
+  padding-top: 5vw;
+}
+
+.con {
+  display: flex;
+  padding: 24px;
+  width: 336px;
+  height: 531px;
+  background: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #fff;
+}
+.con img {
+  width: 88px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.con h1 {
+  font-size: 24px;
+}
+.con span {
+  color: rgb(196, 248, 42);
+  font-size: 14px;
+  font-weight: 600;
+}
+.con div {
+  width: 100%;
+}
+.con div button {
+  font-size: 14px;
+  width: 100%;
+  margin: 10px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+  background: hsl(0, 0%, 20%);
+  color: #fff;
+  font-weight: 600;
+}
+.con div button:hover {
+  background-color: rgb(196, 248, 42);
+  color: hsl(0, 0%, 20%);
+}
+
+.attribution {
+  color: #fff;
+  position: absolute;
+  bottom: 21px;
+}
+
+.attribution a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+  .cent {
+    width: 100%;
+  }
+  .con {
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
